@@ -8,6 +8,7 @@
     body {
         width: 100%;
         display: table-cell;
+        background: #ccc;
     }
 
     html,
@@ -27,6 +28,7 @@
     .contact,
     .portfolio,
     .about {
+        text-decoration: none;
         color: #00ffaa;
         text-decoration: none;
         font-family: Arial, Helvetica, sans-serif;
@@ -35,9 +37,28 @@
 
     }
 
+
+
+    .own-pic {
+        width: 150px;
+        border-radius: 100%;
+        margin-bottom: 30%;
+
+
+
+
+    }
+
     .about-me {
-        padding: 100px;
-        font-size: 1.3em;
+        padding-left: 15%;
+
+    }
+
+
+
+    .container {
+        padding-top: 100px;
+        padding-right: 100px;
     }
 
     /*This is contact Us css code*/
@@ -53,7 +74,7 @@
     /*Potfolio css*/
 
     .portfolio-page {
-        margin: 20px;
+        margin: 0;
     }
 
     .myrow-1 {
