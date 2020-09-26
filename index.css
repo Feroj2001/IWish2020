@@ -22,3 +22,14 @@
         padding: 100px;
         font-size: 1.3em;
     }
+
+    /*This is contact Us css code*/
+    .heading {
+        text-align: center;
+        font-size: 45px;
+        border-bottom: 2px dotted #eeddff;
+    }
+
+    .container {
+        background-color: #669988;
+    }
