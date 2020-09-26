@@ -4,24 +4,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <style></style>
   </head>
   <body>
-    <div class="container">
-      <h2 class="heading">Contact Us</h2>
-      <h2 style="text-align: center">We'd love to help!</h2>
-      <p style="text-align: center">
-        We like to create things with fun, oen minded people. Feel free to say
-        hello
-      </p>
-      <div class="row">
-        <div class="col-md-6">
-          <form action=""></form>
-          <input type="text" name="text" placeholder="Your name" class="from-control" />
-        </form>
+    <center>
+      <div>
+        <h2>Contact Us</h2>
+        <p>Leave us a message:</p>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Name</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Your Name"
+            id="exampleInputName"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Your Email"
+            id="exampleInputEmail"
+          />
         </div>
 
-        <div class="col-md-6"></div>
-      </div>
-    </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          placeholder="Your Message"
+          rows="10"
+        ></textarea>
+
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </center>
   </body>
 </html>
