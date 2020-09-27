@@ -61,6 +61,11 @@
         padding-right: 100px;
     }
 
+    .my-paragraph {
+        width: 50px;
+        padding-top: 3%;
+    }
+
     /*This is contact Us css code*/
     form {
         width: 50%;
